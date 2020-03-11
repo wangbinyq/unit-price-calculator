@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.scss"],"names":[],"mappings":"AAAA,eACE,YAAA,CACA,gBAAA,CACA,aAAA,CAGF,cACE,YAAA,CACA,0BAAA,CACA,aAAA","file":"main.21904e6e.chunk.css","sourcesContent":[".table-wrapper {\n  padding: 20px;\n  max-width: 1200px;\n  margin: 0 auto;\n}\n\n.table-header {\n  display: flex;\n  flex-direction: row-reverse;\n  margin: 20px 0;\n}"]}
