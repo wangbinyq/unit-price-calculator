@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/unit-price-calculator/build/static/css/main.21904e6e.chunk.css",
-    "main.js": "/unit-price-calculator/build/static/js/main.0e500d55.chunk.js",
-    "main.js.map": "/unit-price-calculator/build/static/js/main.0e500d55.chunk.js.map",
+    "main.js": "/unit-price-calculator/build/static/js/main.cb4d51e2.chunk.js",
+    "main.js.map": "/unit-price-calculator/build/static/js/main.cb4d51e2.chunk.js.map",
     "runtime-main.js": "/unit-price-calculator/build/static/js/runtime-main.dbd06bbf.js",
     "runtime-main.js.map": "/unit-price-calculator/build/static/js/runtime-main.dbd06bbf.js.map",
     "static/css/2.63080a8a.chunk.css": "/unit-price-calculator/build/static/css/2.63080a8a.chunk.css",
     "static/js/2.acc0c704.chunk.js": "/unit-price-calculator/build/static/js/2.acc0c704.chunk.js",
     "static/js/2.acc0c704.chunk.js.map": "/unit-price-calculator/build/static/js/2.acc0c704.chunk.js.map",
     "index.html": "/unit-price-calculator/build/index.html",
-    "precache-manifest.7d30ffcb84c184bc002242e5f0ebde52.js": "/unit-price-calculator/build/precache-manifest.7d30ffcb84c184bc002242e5f0ebde52.js",
+    "precache-manifest.ebca5ca51eb21d1f7b51c900c41dad8d.js": "/unit-price-calculator/build/precache-manifest.ebca5ca51eb21d1f7b51c900c41dad8d.js",
     "service-worker.js": "/unit-price-calculator/build/service-worker.js",
     "static/css/2.63080a8a.chunk.css.map": "/unit-price-calculator/build/static/css/2.63080a8a.chunk.css.map",
     "static/css/main.21904e6e.chunk.css.map": "/unit-price-calculator/build/static/css/main.21904e6e.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.63080a8a.chunk.css",
     "static/js/2.acc0c704.chunk.js",
     "static/css/main.21904e6e.chunk.css",
-    "static/js/main.0e500d55.chunk.js"
+    "static/js/main.cb4d51e2.chunk.js"
   ]
 }

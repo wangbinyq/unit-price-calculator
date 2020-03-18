@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/unit-price-calculator/build/precache-manifest.7d30ffcb84c184bc002242e5f0ebde52.js"
+  "/unit-price-calculator/build/precache-manifest.ebca5ca51eb21d1f7b51c900c41dad8d.js"
 );
 
 self.addEventListener('message', (event) => {

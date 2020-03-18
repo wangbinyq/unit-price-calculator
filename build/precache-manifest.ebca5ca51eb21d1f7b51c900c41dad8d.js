@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e168ad5ba6c65219d01286090605c1a",
+    "revision": "f0d994f59be36a2fb64957568ea4abfe",
     "url": "/unit-price-calculator/build/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unit-price-calculator/build/static/css/2.63080a8a.chunk.css"
   },
   {
-    "revision": "dfd9e86727edd55a74a4",
+    "revision": "0b9ebb47315103c1b8e4",
     "url": "/unit-price-calculator/build/static/css/main.21904e6e.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/unit-price-calculator/build/static/js/2.acc0c704.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dfd9e86727edd55a74a4",
-    "url": "/unit-price-calculator/build/static/js/main.0e500d55.chunk.js"
+    "revision": "0b9ebb47315103c1b8e4",
+    "url": "/unit-price-calculator/build/static/js/main.cb4d51e2.chunk.js"
   },
   {
     "revision": "187f2bdbd7316e33e4e5",
