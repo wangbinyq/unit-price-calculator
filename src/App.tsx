@@ -7,11 +7,12 @@ interface Item {
   name: string
   price: number
   count: number
+  quantity: number,
   discount: number
 }
 
 function renderUnit(val: any, item: Item, idx: number) {
-  return `${(item.price * item.discount / item.count).toFixed(2)}`
+  return `${(item.price * item.discount / (item.count * item.quantity)).toFixed(2)}`
 }
 
 type State = Item[]
@@ -24,7 +25,7 @@ type Action =
 function reducer(items: State, action: Action): State {
   switch(action.type) {
     case 'add':
-      return [{ name: '', price: 0, count: 1, discount: 1 }, ...items]
+      return [{ name: '', price: 0, count: 1, discount: 1, quantity: 1 }, ...items]
     case 'clear':
       return[]
     case 'delete':
@@ -42,13 +43,17 @@ function App() {
 
   const [ items, dispatch ] = useReducer(reducer, [])
 
-
   const columns = [
     { title: '名称', dataIndex: 'name', render: (val: any, item: Item, idx: number) => {
       return <Input value={val} onChange={e => dispatch({ type: 'update', key: 'name', val: e.target.value, idx, }) }></Input>
     } },
     { title: '数量', dataIndex: 'count', render: (val: any, item: Item, idx: number) => {
         return <InputNumber value={val} onChange={val => dispatch({type: 'update', key: 'count', val, idx})}></InputNumber>
+      }
+    },
+    {
+      title: '质量', dataIndex: 'quantity', render: (val: any, item: Item, idx: number) => {
+        return <InputNumber value={val} onChange={val => dispatch({type: 'update', key: 'quantity', val, idx})}></InputNumber>
       }
     },
     {
